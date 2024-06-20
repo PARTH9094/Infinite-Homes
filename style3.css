@@ -1,0 +1,363 @@
+.header {
+    margin-top: 20px; 
+}
+
+.logo {
+    font-size: 24px; 
+    line-height: 40px; 
+}
+
+.nav {
+    gap: 0; 
+}
+
+.nav a {
+    font-size: 14px; 
+    padding: 8px 12px; 
+}
+
+.Contact {
+    padding: 10px 20px; 
+    font-size: 14px; 
+    margin: 12px 0;
+}
+
+.active-menu {
+    padding: 10px 20px; 
+}
+
+/* Hero Page */
+.hero {
+    margin-top: 40px; 
+}
+
+.hero-content p {
+    font-size: 18px; 
+    line-height: 28px; 
+}
+.hero-body-wrapper{
+    flex-direction: column;
+}
+.hero-content h2 {
+    font-size: 40px; 
+    line-height: 60px; 
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+}
+
+.search-bar {
+    height: auto; 
+    padding: 15px; 
+    margin-top: 30px; 
+    gap: 50px;
+}
+
+.search-bar p {
+    font-size: 16px; 
+    line-height: 24px;
+}
+
+.btn {
+    height: 50px;
+    width: 50px;
+    margin: 10px 0; 
+}
+
+.hero-image img {
+    height: auto; 
+    width: 100%;
+}
+
+/* About Infinite Homes */
+.main-about-wrapper {
+    gap: 40px; 
+}
+
+.about-img img {
+    height: auto; 
+}
+
+.about-content h2 {
+    font-size: 28px; 
+    line-height: 36px; 
+    margin-top: 40px; 
+}
+
+.about-content p {
+    font-size: 18px; 
+    line-height: 28px; 
+    margin-top: 20px;
+}
+
+.about-content-1 h4 {
+    font-size: 28px; 
+    line-height: 36px;
+    margin-top: 20px; 
+}
+
+.about-content-1 p {
+    font-size: 16px; 
+    line-height: 24px; 
+}
+
+.about-2-wrapper {
+    margin-top: 60px; 
+}
+
+.about2-main-header,
+.about2-main-header-2 {
+   
+    flex-direction: column;
+    gap: 40px; 
+}
+
+.content-about-2 h2,
+.content-about-3 h2 {
+    font-size: 28px; 
+    line-height: 36px;
+}
+
+.content-about-2,
+.content-about-3 p {
+    font-size: 16px;
+    line-height: 24px; 
+}
+
+.content-about-2-img,
+.content-about-3-img,
+.about-img img {
+    height: auto;
+    width: 100%; 
+}
+
+.btn3,
+.btn2 {
+    margin-top: 30px; 
+}
+
+
+.partners-wrapper {
+    margin-top: 75px;
+}
+
+.main-partner-wrapper h2 {
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.main-partner-wrapper p {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.main-partner {
+    flex-direction: column;
+    gap: 40px;
+}
+
+.partner-img img {
+    height: auto;
+    width: 100%;
+}
+
+.featured-properties h2 {
+    font-size: 32px;
+}
+
+.featured-properties p {
+    font-size: 20px;
+}
+
+.property-categories {
+    flex-direction: column;
+    gap: 15px;
+}
+
+.property-categories a {
+    font-size: 18px;
+}
+
+.property-grid {
+    flex-direction: column;
+    gap: 20px;
+}
+
+.property-card {
+    width: 100%;
+    padding: 0;
+}
+.property-card img {
+    height: auto;
+    width: 100%;
+    border-radius: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.property-info-main {
+    gap: 20px;
+}
+
+.property-info h3 {
+    font-size: 18px;
+}
+
+.property-info p {
+    font-size: 14px;
+}
+
+.property-actions img {
+    height: auto;
+    width: 50px;
+    margin-left: 20px;
+    padding-top: 40px;
+    padding-right: 30px;
+}
+
+.why-choose-us h2 {
+    font-size: 32px;
+}
+
+.why-choose-us .intro {
+    font-size: 20px;
+    width: 100%;
+    height: auto;
+}
+
+.feature-cards {
+    flex-direction: column;
+    gap: 20px;
+}
+
+.feature-card {
+    margin-top: 30px;
+}
+
+.feature-card h3 {
+    font-size: 18px;
+    padding: 30px 30px 0 30px;
+}
+
+.feature-card p {
+    font-size: 14px;
+    margin: 10px 30px;
+}
+
+.btn4 {
+    font-size: 14px;
+    padding: 10px 20px;
+    margin: 20px auto;
+}
+
+.our-blog h2 {
+    font-size: 32px;
+}
+
+.our-blog .intro {
+    font-size: 20px;
+}
+
+.blog-cards {
+    flex-direction: column;
+    gap: 30px;
+}
+
+.blog-card {
+    width: 100%;
+}
+
+.blog-card.featured {
+    width: 100%;
+}
+
+.blog-card.featured img {
+    width: 100%;
+    height: auto;
+    padding: 0 0;
+    border-radius: 0;
+}
+
+.blog-card-partition .blog-card {
+    flex-direction: column;
+}
+
+.blog-card-partition .blog-card img {
+    height: auto;
+    width: 100%;
+    padding: 0 0;
+    border-radius: 0;
+}
+
+.blog-card-partition .blog-card .blog-content {
+    margin: 15px;
+}
+
+.blog-content {
+    margin: 15px;
+}
+
+.blog-content .date {
+    font-size: 10px;
+}
+
+.blog-content h3 {
+    font-size: 18px;
+}
+
+.blog-content p {
+    font-size: 14px;
+}
+
+.read-more {
+    font-size: 12px;
+}
+
+.footer {
+    padding: 30px 20px;
+}
+
+.footer .subscription-form {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer .subscription-form p {
+    font-size: 18px;
+}
+
+.footer .subscription-form .email-input {
+    width: 100%;
+    margin-left: -10px;
+    padding: 15px;
+}
+
+.footer .subscription-form .subscribe-btn {
+    margin: 15px 0 0;
+    width: 100%;
+    padding: 15px;
+}
+
+.footer-content {
+    flex-direction: column;
+}
+
+.footer .footer-column {
+    text-align: center;
+}
+
+.footer .footer-column.company h3 {
+    font-size: 32px;
+}
+
+.footer .footer-column h4 {
+    font-size: 18px;
+    padding-left: 0;
+}
+
+.footer .footer-column p {
+    font-family: 18px;
+}
+.footer .footer-column ul{
+   margin-left: 0;
+
+}

@@ -12,7 +12,11 @@ body {
     padding: 0 20px; /* Added padding for mobile view */
 }
 
-/* Navigation */
+/* General Reset */
+* {
+    box-sizing: border-box;
+}
+
 .header {
     margin-top: 50px;
 }
@@ -41,9 +45,9 @@ body {
 
 .nav {
     display: flex;
-    gap: 20px; /* Reduced gap for smaller screens */
+    gap: 20px;
     align-items: center;
-    flex-wrap: wrap; /* Wrap navigation items on smaller screens */
+    flex-wrap: wrap;
 }
 
 .nav a {
@@ -54,10 +58,10 @@ body {
     line-height: 25px;
     text-decoration: none;
     border-radius: 50px;
-    padding: 10px 15px; /* Adjusted padding for better touch target */
+    padding: 10px 15px;
 }
 
-.Contact{
+.Contact {
     color: white;
     background-color: #254D4D; 
     padding: 11px 24px;
@@ -69,36 +73,30 @@ body {
     border-radius: 50px;
     text-align: left;
     margin: 18px 41px 17px 93px;
-
 }
 
-.active-menu{
+.active-menu {
     padding: 11px 24px;
 }
 
-
-
 /* Hero Page */
-
-
 .hero {
     margin-top: 60px;
-    padding: 0 20px; 
+    padding: 0 20px;
 }
 
 .hero-content {
-    max-width: 100%; 
-    text-align: center; 
-    margin: 0 auto; 
+    max-width: 100%;
+    text-align: center;
+    margin: 0 auto;
 }
 
-.hero-body-wrapper{
+.hero-body-wrapper {
     display: flex;
     gap: 76px;
 }
 
-.hero-content p{
-    
+.hero-content p {
     font-family: "Roboto", sans-serif;
     font-size: 22px;
     font-weight: 400;
@@ -106,11 +104,9 @@ body {
     margin: 0 0;
     line-height: 30px;
     color: rgba(20, 20, 20, 0.6);
-
-   
-
 }
-.hero-content h2{
+
+.hero-content h2 {
     letter-spacing: normal;
     font-family: Poppins;
     font-size: 60px;
@@ -120,15 +116,11 @@ body {
     margin-top: 25px;
     margin-bottom: 30px;
     color: rgba(37, 77, 77, 1);
-
 }
 
-
-
-.search-bar{
-
+.search-bar {
     height: 112px;
-    width: auto;
+    width: 743px;
     display: flex;
     gap: 75px;
     margin-top: 50px;
@@ -137,63 +129,45 @@ body {
     border-radius: 50px;
 }
 
-
-.search-bar p{
-        
+.search-bar p {
     font-family: "Roboto", sans-serif;
     font-size: 19px;
     font-weight: 700;
     line-height: 30px;
     text-align: left;
     color: rgba(20, 20, 20, 0.6);
-
 }
 
-
-.search{
-    margin-left:35px;
+.search {
+    margin-left: 35px;
 }
 
-.btn{
-    background-color: #254D4D; 
+.btn {
+    background-color: #254D4D;
     border-radius: 50px;
     margin: 25px 25px 25px 0;
     height: 64px;
     width: 62px;
 }
 
-
-
-
-.hero-image img{
+.hero-image img {
     height: auto;
-    width: 500px;
+    max-width: 500px;
     border-radius: 50px;
 }
 
-
-
-
-/* 
-ABout Infinite Homes */
-
-
-.main-about-wrapper{
-    
+/* About Infinite Homes */
+.main-about-wrapper {
     display: flex;
     gap: 180px;
 }
 
-
-
-.about-img img{
-    height: 662px ;
+.about-img img {
+    height: 662px;
     width: 663px;
 }
 
-
-.about-content h2{
-    
+.about-content h2 {
     font-family: "Roboto", sans-serif;
     font-size: 36px;
     font-weight: 700;
@@ -204,7 +178,7 @@ ABout Infinite Homes */
     color: rgba(37, 77, 77, 1);
 }
 
-.about-content p{
+.about-content p {
     font-family: "Roboto", sans-serif;
     font-size: 22px;
     font-weight: 400;
@@ -213,15 +187,14 @@ ABout Infinite Homes */
     margin-top: 35px;
     margin-bottom: 0;
     color: rgba(20, 20, 20, 0.6);
-
 }
 
-.about-content-1{
+.about-content-1 {
     display: flex;
     gap: 41px;
 }
 
-.about-content-1 h4{
+.about-content-1 h4 {
     font-family: "Roboto", sans-serif;
     font-size: 36px;
     font-weight: 700;
@@ -229,11 +202,9 @@ ABout Infinite Homes */
     text-align: left;
     margin-top: 40px;
     margin-bottom: 0;
-
 }
 
-.about-content-1 p{
-
+.about-content-1 p {
     font-family: "Roboto", sans-serif;
     font-size: 20px;
     font-weight: 700;
@@ -242,24 +213,22 @@ ABout Infinite Homes */
     color: rgba(20, 20, 20, 0.6);
 }
 
-
-.about-2-wrapper{
+.about-2-wrapper {
     margin-top: 100px;
 }
 
-
-.about2-main-header{
+.about2-main-header {
     display: flex;
     gap: 100px;
 }
 
-.about2-main-header-2{
+.about2-main-header-2 {
     display: flex;
     gap: 100px;
     margin-top: 40px;
 }
 
-.content-about-2 h2{
+.content-about-2 h2 {
     font-family: "Roboto", sans-serif;
     font-size: 36px;
     font-weight: 700;
@@ -268,7 +237,8 @@ ABout Infinite Homes */
     margin: 0 0;
     color: rgba(37, 77, 77, 1);
 }
-.content-about-3 h2{
+
+.content-about-3 h2 {
     font-family: "Roboto", sans-serif;
     font-size: 36px;
     font-weight: 700;
@@ -278,8 +248,8 @@ ABout Infinite Homes */
     color: rgba(37, 77, 77, 1);
 }
 
-
-.content-about-2,.content-about-3 p{
+.content-about-2,
+.content-about-3 p {
     font-family: "Roboto", sans-serif;
     margin: 35px 0 0 0;
     font-size: 22px;
@@ -287,17 +257,17 @@ ABout Infinite Homes */
     line-height: 30px;
     text-align: left;
     color: rgba(20, 20, 20, 0.6);
-
-
 }
-.content-about-3-img,.content-about-2-img, img{
-    
+
+.content-about-3-img,
+.content-about-2-img img {
     border-radius: 50px;
-    height: auto;
-    width: 100%;
+    height: 380px;
+    width: 700px;
 }
 
-.btn3, .btn2{
+.btn3,
+.btn2 {
     margin-top: 45px;
     color: white;
     background: linear-gradient(90.18deg, #285D5C 20.09%, #398F8B 79.91%);
@@ -308,11 +278,40 @@ ABout Infinite Homes */
     text-align: left;
     border-radius: 50px;
     padding: 11px 22px;
-
 }
 
-
 /* Partner page start here */
+.partners-wrapper {
+    margin-top: 100px;
+}
+
+.main-partner-wrapper h2 {
+    color: rgba(37, 77, 77, 1);
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42.19px;
+    text-align: left;
+}
+
+.main-partner-wrapper p {
+    font-family: "Roboto", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: rgba(20, 20, 20, 0.6);
+}
+
+.main-partner {
+    display: flex;
+    gap: 150px;
+}
+
+.partner-img img {
+    height: 450px;
+    width: 445px;
+}
 
 .partners-wrapper{
     margin-top: 100px;
@@ -811,21 +810,3 @@ ABout Infinite Homes */
     color: rgba(255, 255, 255, 1);
     text-decoration: none;
 }
-
-.ul1{
-    margin-left: 120px;
-}
-.ul2{
-    margin-left: 100px;
-}
-.ul3{
-    margin-left: 105px;
-}
-
-
-
-
-
-
-
-

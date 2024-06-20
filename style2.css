@@ -1,0 +1,356 @@
+.hero-body-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.nav {
+    display: flex;
+    gap: 0px; 
+    align-items: center;
+    flex-wrap: wrap; 
+}
+
+   
+    /* Navigation */
+    .header-wrapper {
+        padding: 10px 15px;
+    }
+
+    .logo {
+        font-size: 20px; 
+        line-height: 35px;
+    }
+
+    .nav a {
+        font-size: 13px;
+        padding: 6px 10px; 
+    }
+
+    .Contact {
+        padding: 8px 16px; 
+        font-size: 13px; 
+        margin: 10px 0; 
+    }
+
+    /* Hero Page */
+    .hero {
+        margin-top: 30px; 
+    }
+
+    .hero-content p {
+        font-size: 16px; 
+        line-height: 24px; 
+    }
+
+    .hero-content h2 {
+        font-size: 36px; 
+        line-height: 50px; 
+        margin-top: 15px; 
+        margin-bottom: 15px;
+    }
+    .search{
+        margin-left: 25px;
+    }
+
+    .search-bar {
+        margin-top: 20px; 
+        gap: 10px;
+    }
+
+    .search-bar p {
+        font-size: 14px; 
+        line-height: 20px; 
+    }
+
+    .btn {
+        height: 40px; 
+        width: 40px; 
+        margin: 8px 0; 
+    }
+
+    .hero-image img {
+        max-width: 100%; 
+    }
+
+    /* About Infinite Homes */
+    .main-about-wrapper {
+     
+        gap: 30px;
+        flex-direction: column;
+    
+    }
+
+    .about-content h2 {
+        font-size: 24px; 
+        line-height: 32px;
+        margin-top: 30px; }
+
+    .about-content p {
+        font-size: 16px; 
+        line-height: 24px;
+        margin-top: 15px; 
+    }
+
+    .about-content-1 h4 {
+        font-size: 24px; 
+        line-height: 32px; 
+        margin-top: 15px; 
+    }
+    .about-img img{
+        height: auto;
+        width: 100%;
+    }
+
+    .about-content-1 p {
+        font-size: 14px; 
+        line-height: 22px; 
+    }
+
+    .about2-main-header,
+    .about2-main-header-2 {
+        gap: 15px;
+        flex-direction: column; 
+    }
+
+    .content-about-2 h2,
+    .content-about-3 h2 {
+        font-size: 24px; 
+        line-height: 32px; 
+    }
+
+    .content-about-2,
+    .content-about-3 p {
+        font-size: 14px; 
+        line-height: 22px; 
+    }
+
+
+    .content-about-3-img,.content-about-2-img img{
+        width: 100%;
+        height: auto;
+    }
+
+    .btn3,
+    .btn2 {
+        margin-top: 20px; 
+    }
+
+    .partners-wrapper {
+        margin-top: 50px;
+    }
+
+    .main-partner-wrapper h2 {
+        font-size: 28px;
+        line-height: 35px;
+    }
+
+    .main-partner-wrapper p {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .main-partner {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .partner-img img {
+        height: auto;
+        width: 100%;
+    }
+
+    .featured-properties h2 {
+        font-size: 28px;
+    }
+
+    .featured-properties p {
+        font-size: 18px;
+    }
+
+    .property-categories {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .property-categories a {
+        font-size: 18px;
+    }
+
+    .property-grid {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .property-card {
+        width: 100%;
+        padding: 0;
+    }
+
+    .property-info-main {
+        gap: 10px;
+    }
+
+    .property-info h3 {
+        font-size: 18px;
+    }
+
+    .property-info p {
+        font-size: 14px;
+    }
+
+    .property-actions img {
+        height: 40px;
+        width: 40px;
+    }
+
+    .why-choose-us h2 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .why-choose-us .intro {
+        font-size: 18px;
+        text-align: center;
+        width: 100%;
+        height: auto;
+    }
+
+    .feature-cards {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .feature-card {
+        margin-top: 20px;
+    }
+
+    .feature-card h3 {
+        font-size: 18px;
+        padding: 20px 20px 0 20px;
+    }
+
+    .feature-card p {
+        font-size: 14px;
+        margin: 10px 20px;
+    }
+
+    .btn4 {
+        font-size: 14px;
+        padding: 10px 20px;
+        margin: 20px auto;
+    }
+
+    .our-blog h2 {
+        font-size: 28px;
+    }
+
+    .our-blog .intro {
+        font-size: 18px;
+    }
+
+    .blog-cards {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .blog-card {
+        width: 100%;
+    }
+
+    .blog-card.featured {
+        width: 100%;
+    }
+
+    .blog-card.featured img {
+        width: 100%;
+        height: auto;
+        padding: 0;
+        border-radius: 0;
+    }
+
+    .blog-card-partition .blog-card {
+        flex-direction: column;
+    }
+
+    .blog-card-partition .blog-card img {
+        height: auto;
+        width: 100%;
+        padding: 0
+    }
+
+    .blog-card-partition .blog-card .blog-content {
+        margin: 10px;
+    }
+
+    .blog-content {
+        margin: 10px;
+    }
+
+    .blog-content .date {
+        font-size: 10px;
+    }
+
+    .blog-content h3 {
+        font-size: 18px;
+    }
+
+    .blog-content p {
+        font-size: 14px;
+    }
+
+    .read-more {
+        font-size: 12px;
+    }
+
+    .footer {
+        padding: 20px 10px;
+    }
+
+    .footer .subscription-form {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer .subscription-form p {
+        font-size: 18px;
+    }
+
+    .footer .subscription-form .email-input {
+        width: 100%;
+        margin-left: -10px;
+        padding: 10px;
+    }
+
+    .footer .subscription-form .subscribe-btn {
+        margin: 10px 0 0;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+    }
+
+    .footer .footer-column {
+        text-align: center;
+    }
+    .ul1, .ul2, .ul3{
+        margin: 0;
+    }
+
+    .footer .footer-column.company h3 {
+        font-size: 28px;
+    }
+
+    .footer .footer-column h4 {
+        font-size: 18px;
+        padding-left: 0;
+    }
+
+    .footer .footer-column p {
+        font-size: 18px;
+    }
+
+    .footer .footer-column ul li a {
+        font-size: 18px;
+    }
